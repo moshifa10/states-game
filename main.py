@@ -5,6 +5,7 @@ from states_placing import StatePlacing
 # Create a screen 
 
 screen = t.Screen()
+screen.setup(width=725, height=491)
 screen.bgpic(picname="blank_states_img.gif")
 
 
